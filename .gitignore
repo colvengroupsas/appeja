@@ -1,0 +1,38 @@
+# Dart/Pub related
+.dart_tool/
+.packages
+.pub/
+
+# Flutter/Dart/Pub related
+.buildlog/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-version
+.melos_tool/
+.idea/
+
+# VS Code & Android Studio
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Build & artifacts
+build/
+android/.gradle/
+android/app/build/
+ios/Pods/
+*.log
+
+# Local properties
+android/local.properties
+android/key.properties
+android/app/my-release-key.jks
+
+# Firebase keys
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Misc
+*.lock
